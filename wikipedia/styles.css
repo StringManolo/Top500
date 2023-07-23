@@ -11,7 +11,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
+  margin-bottom: 10px;
 }
 
 .wikipedia-logo {
@@ -32,6 +33,7 @@ body {
 .wikipedia-subtitle {
   padding-left: 8px; 
   font-size: 30px;
+  margin-top: 5px;
 }
 
 
@@ -105,7 +107,7 @@ input[type="search"]::-ms-reveal {
 }
 
 .wikipedia-search-button {
-  width: 14%;
+  width: 15%;
   height: 100%;
   border: 2px solid #fff;
   border-radius: 0 6px 6px 0;
@@ -123,3 +125,51 @@ input[type="search"]::-ms-reveal {
 }
 
 
+.wikipedia-langlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 100px;
+  margin: 20px;
+}
+
+.wikipedia-langlist-item {
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wikipedia-langlist-item:hover {
+  outline: 2px solid #3266cc;
+  background-color: #eee;
+}
+
+.wikipedia-langlist-item > a {
+  text-decoration: none;
+}
+
+.wikipedia-langlist-item > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #3266cc;
+}
+
+
+.wikipedia-langlist-item > a > .lang-details > .lang-name {
+  font-size: 30px;
+  color: #3266cc;
+  text-decoration: none;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.wikipedia-langlist-item > a > .lang-details > .lang-count {
+  font-size: 30px;
+  color: #666;
+  display: inline-block;
+}
+
+.wikipedia-langlist-item > a > .lang-details > .lang-articles {
+  font-size: 30px;
+  color: #666;
+  display: inline-block;
+}

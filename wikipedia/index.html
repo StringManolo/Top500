@@ -1,66 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
- <head prefix="og:http://ogp.me/ns#">
-   <meta charset="utf-8">
-   <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-   <title>Wikipedia</title>
-   <meta property="og:type" content="website">
-   <link rel="stylesheet" href="./styles.css">
-   <meta name="theme-color" content="#ffffff">
- </head>
- 
- <body>
-   <header class="wikipedia-header">
-     <img class="wikipedia-logo" src="./wikipedia-logo.png" alt="Wikipedia logo">
-     <div class="wikipedia-title-container">
-       <img src="./wikipedia-wordmark.svg" class="wikipedia-title" alt="Wikipedia Wordmark">
-       <span class="wikipedia-subtitle">The Free Encyclopedia</span>
-     </div> 
-   </header> 
-   
-   <div class="wikipedia-search-container">
-     <input class="wikipedia-search" type="search">
-     <select class="wikipedia-language">
-       <option value="en">English</option>
-       <option value="fr">French</option>
-       <option value="es">Spanish</option>
-       <option value="de">German</option>
-       <option value="it">Italian</option>
-       <option value="ru">Russian</option>
-       <option value="zh">Chinese</option>
-       <option value="ja">Japanese</option>
-       <option value="ko">Korean</option>
-       <option value="ar">Arabic</option>
-       <option value="nl">Dutch</option>
-       <option value="pl">Polish</option>
-       <option value="pt">Portuguese</option>
-       <option value="sv">Swedish</option>
-       <option value="th">Thai</option>
-       <option value="vi">Vietnamese</option>
-       <option value="id">Indonesian</option>
-       <option value="cs">Czech</option>
-       <option value="da">Danish</option>
-       <option value="el">Greek</option>
-       <option value="hu">Hungarian</option>
-       <option value="uk">Ukrainian</option>
-       <option value="no">Norwegian</option>
-       <option value="fi">Finnish</option>
-       <option value="ro">Romanian</option>
-       <option value="sk">Slovak</option>
-       <option value="sl">Slovenian</option>
-       <option value="bg">Bulgarian</option>
-       <option value="hr">Croatian</option>
-       <option value="sr">Serbian</option>
-       <option value="uk">Ukrainian</option>
-     </select>
-     <div class="hide-arrow"></div>
-     <button class="wikipedia-search-button">
-       <img class="wikipedia-search-icon" src="./search-icon.svg" alt="search">
-     </button>
-   </div>  
-   
+  <head prefix="og:http://ogp.me/ns#">
+    <meta charset="utf-8">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Wikipedia</title>
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header class="wikipedia-header">
+      <img class="wikipedia-logo" src="./wikipedia-logo.png" alt="Wikipedia logo">
+      <div class="wikipedia-title-container">
+        <img src="./wikipedia-wordmark.svg" class="wikipedia-title" alt="Wikipedia Wordmark">
+        <span class="wikipedia-subtitle">The Free Encyclopedia</span>
+      </div>
+    </header>
 
+    <div class="wikipedia-search-container">
+      <input class="wikipedia-search" type="search">
+      <select class="wikipedia-language">
+        <option value="en">English</option>
+        <option value="fr">French</option>
+        <option value="es">Spanish</option>
+        <option value="de">German</option>
+        <option value="it">Italian</option>
+        <option value="ru">Russian</option>
+        <option value="zh">Chinese</option>
+        <option value="ja">Japanese</option>
+        <option value="ko">Korean</option>
+        <option value="ar">Arabic</option>
+        <option value="nl">Dutch</option>
+        <option value="pl">Polish</option>
+        <option value="pt">Portuguese</option>
+        <option value="sv">Swedish</option>
+        <option value="th">Thai</option>
+        <option value="vi">Vietnamese</option>
+        <option value="id">Indonesian</option>
+        <option value="cs">Czech</option>
+        <option value="da">Danish</option>
+        <option value="el">Greek</option>
+        <option value="hu">Hungarian</option>
+        <option value="uk">Ukrainian</option>
+        <option value="no">Norwegian</option>
+        <option value="fi">Finnish</option>
+        <option value="ro">Romanian</option>
+        <option value="sk">Slovak</option>
+        <option value="sl">Slovenian</option>
+        <option value="bg">Bulgarian</option>
+        <option value="hr">Croatian</option>
+        <option value="sr">Serbian</option>
+      </select>
+      <div class="hide-arrow"></div>
+      <button class="wikipedia-search-button">
+        <img class="wikipedia-search-icon" src="./search-icon.svg" alt="search">
+      </button>
+    </div>
 
-   <script src="./main.js"></script>
- </body>
+    <div class="wikipedia-langlist">
+      <div class="wikipedia-langlist-item">
+        <a class="english-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">English</div>
+            <div class="lang-count">6,681,000+</div>
+            <div class="lang-articles">articles</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="spanish-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">Español</div>
+            <div class="lang-count">1,876,000+</div>
+            <div class="lang-articles">artículos</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="japanese-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">日本語</div>
+            <div class="lang-count">1,379,000+</div>
+            <div class="lang-articles">記事</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="russian-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">Русский</div>
+            <div class="lang-count">1,927,000+</div>
+            <div class="lang-articles">статей</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="german-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">Deutsch</div>
+            <div class="lang-count">2,816,000+</div>
+            <div class="lang-articles">Artikel</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="french-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">Français</div>
+            <div class="lang-count">2,535,000+</div>
+            <div class="lang-articles">articles</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="italian-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">Italiano</div>
+            <div class="lang-count">1,817,000+</div>
+            <div class="lang-articles">voci</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="chinese-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">中文</div>
+            <div class="lang-count">1,366,000+</div>
+            <div class="lang-articles">条目 / 條目</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="persian-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">فارسی</div>
+            <div class="lang-articles">ﻢﻗﺎﻠﻫ</div>
+            <div class="lang-count">967,000+</div>
+          </div>
+        </a>
+      </div>
+      <div class="wikipedia-langlist-item">
+        <a class="portuguese-link" href="#">
+          <div class="lang-details">
+            <div class="lang-name">Português</div>
+            <div class="lang-count">1,104,000+</div>
+            <div class="lang-articles">artigos</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
 </html>
+
