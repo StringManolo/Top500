@@ -1,6 +1,6 @@
 /* Tested on:
  * 1080 x 2340 [ Huawei P40 ]
- *
+ * 1024 x 1440 [ Microsoft Surface Pro 3 ] (portrait)
  * For other devices go down to the bottom of this file
 */
 
@@ -291,7 +291,7 @@ input[type="search"]::-ms-reveal {
 /* Dispositivo target: Pantallas medianas (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Tested on:
-   * * 768 x 1024 [ Apple Ipad Pro 9.7 ]
+   * 768 x 1024 [ Apple Ipad Pro 9.7 ]
   */
   .hide-arrow {
     right: 21%;
@@ -303,10 +303,18 @@ input[type="search"]::-ms-reveal {
 
 /* Dispositivo target: Pantallas grandes (escritorio) */
 @media (min-width: 992px) and (max-width: 1199px) {
+
 }
 
 /* Dispositivo target: Pantallas extra grandes (pantallas grandes y de alta resolución) */
 @media (min-width: 1200px) {
+  /* Tested on:
+   * 1440 x 1024 [ Microsoft Surface Pro 3 ] (landscape)
+   */
+  .hide-arrow {
+    right: 18%;
+    width: 3%;
+  }
 }
 
 /* Dispositivo target: Orientación vertical */
