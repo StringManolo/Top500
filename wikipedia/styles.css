@@ -290,7 +290,16 @@ input[type="search"]::-ms-reveal {
 
 /* Dispositivo target: Pantallas medianas (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Tested on:
+   * * 768 x 1024 [ Apple Ipad Pro 9.7 ]
+  */
+  .hide-arrow {
+    right: 21%;
+    width: 6%;
+  }
 }
+
+
 
 /* Dispositivo target: Pantallas grandes (escritorio) */
 @media (min-width: 992px) and (max-width: 1199px) {
