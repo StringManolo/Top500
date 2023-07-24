@@ -1,3 +1,9 @@
+/* Tested on:
+ * 1080 x 2340 [ Huawei P40 ]
+ *
+ * For other devices go down to the bottom of this file
+*/
+
 body {
   margin: 0;
   padding: 0;
@@ -173,3 +179,140 @@ input[type="search"]::-ms-reveal {
   color: #666;
   display: inline-block;
 }
+
+
+/* Dispositivo target: Pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+  /* Tested on:
+   * 411 x 731 [ Google Pixel 2 ]
+  */
+
+
+/* Header: */
+  .wikipedia-header {
+    margin-top: 8%;
+    justify-content: center; 
+    margin-bottom: 1%;
+  }
+
+  .wikipedia-logo {
+    width: 14%;
+  }
+
+  .wikipedia-title {
+    width: 78%;
+    padding-left: 0.5%;
+  }
+
+  .wikipedia-subtitle {
+    font-size: 0.8em;
+  }
+
+  .wikipedia-title-container {
+    max-width: 150px;
+  }
+
+
+/* Search: */
+  .wikipedia-search-container {
+    height: 30%;
+  }
+
+  .wikipedia-search {
+    font-size: 1em;
+    padding-left: 3%;
+    padding-right: 40%;
+    border: 1px solid #aaa;
+    height: 40px;
+  }
+
+  .wikipedia-search:focus {
+    outline: 1px solid #3266cc;
+    outline-offset: -1px;
+  }
+
+  .wikipedia-search-button {
+    width: 18%;
+  }
+
+  .wikipedia-search-button:hover {
+     box-shadow: inset 0 0 0 1px #3266cc, inset 0 0 0 2px #fff;
+   }
+
+  .wikipedia-search-icon {
+    height: 34.5px;
+    margin-left: -2.5%;
+  }
+
+  .wikipedia-language {
+    font-size: 1em;
+    padding-right: 2%;
+    margin-right: 2%;
+    width: 16%;
+    margin-left: -21%;
+    height: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .wikipedia-language:focus {
+    outline: 1px solid #3266cc;
+  }
+
+  .hide-arrow {
+    width: 2.5%;
+    right: 21.7%;
+  }
+
+
+  .wikipedia-langlist {
+    grid-column-gap: 10%;
+    margin: 2%;
+  }
+
+
+/* Langlist: */
+  .wikipedia-langlist-item {
+    margin-top: 13%;
+  }
+
+  .wikipedia-langlist-item > a > .lang-details > .lang-name,
+  .wikipedia-langlist-item > a > .lang-details > .lang-count,
+  .wikipedia-langlist-item > a > .lang-details > .lang-articles
+  {
+    font-size: 1em;
+  }
+
+  .wikipedia-langlist-item > a > .lang-details > .lang-name {
+    margin-bottom: 2%;
+  }
+}
+
+/* Dispositivo target: Pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Dispositivo target: Pantallas grandes (escritorio) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Dispositivo target: Pantallas extra grandes (pantallas grandes y de alta resolución) */
+@media (min-width: 1200px) {
+}
+
+/* Dispositivo target: Orientación vertical */
+@media (orientation: portrait) {
+}
+
+/* Dispositivo target: Orientación horizontal */
+@media (orientation: landscape) {
+}
+
+/* Dispositivo target: Pantallas con resolución Retina u otros dispositivos de alta densidad de píxeles */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+}
+
+/* Dispositivo target: Impresión */
+@media print {
+}
+
