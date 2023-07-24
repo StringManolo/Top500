@@ -288,6 +288,25 @@ input[type="search"]::-ms-reveal {
   }
 }
 
+
+
+@media (min-width: 720px) and (max-width: 768px) {
+  /* Tested on:
+   * 720 x 1280 [ Microsoft Surface Pro 2 ]
+  */
+  .hide-arrow {
+    right: 19%;
+    width: 6%;
+  }
+
+  .wikipedia-language {
+    width: 13%;
+    padding-right: 5.5%;
+  }
+}
+
+
+
 /* Dispositivo target: Pantallas medianas (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Tested on:
@@ -312,7 +331,7 @@ input[type="search"]::-ms-reveal {
    * 1440 x 1024 [ Microsoft Surface Pro 3 ] (landscape)
    */
   .hide-arrow {
-    right: 18%;
+    right: 17.8%;
     width: 3%;
   }
 }
