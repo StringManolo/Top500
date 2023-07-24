@@ -349,18 +349,22 @@ input[type="search"]::-ms-reveal {
   /* Tested on:
    * 768 x 1024 [ Apple Ipad Pro 9.7 ]
   */
+
+/*
   .hide-arrow {
     right: 21%;
     width: 6%;
+    background-color: blue;
   }
+*/
 }
 
 
 
 /* Dispositivo target: Pantallas grandes (escritorio) */
-@media (min-width: 992px) and (max-width: 1199px) {
-
+/*@media (min-width: 992px) and (max-width: 1199px) {
 }
+*/
 
 /* Dispositivo target: Pantallas extra grandes (pantallas grandes y de alta resolución) */
 @media (min-width: 1200px) {
@@ -369,7 +373,6 @@ input[type="search"]::-ms-reveal {
     width: 3%;
   }
 }
-
 
 @media (min-width: 1280px) {
   /* Tested on:
@@ -576,7 +579,6 @@ input[type="search"]::-ms-reveal {
     right: calc(19% - 3.92%);
   }
 }
-
 
 /* Dispositivo target: Orientación vertical */
 @media (orientation: portrait) {
