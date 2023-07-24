@@ -326,6 +326,20 @@ input[type="search"]::-ms-reveal {
   }
 }
 
+@media (min-width: 411px) and (max-width: 567px) {
+  /* Tested on:
+   * 320 x 533 [ Samsung Galaxy S2 ] (landscape)
+  */
+  .hide-arrow {
+    right: 19.5%;
+    width: 2.6%;
+  }
+
+  .wikipedia-language {
+    width: 12%;
+  }
+}
+
 @media (min-width: 567px) and (max-width: 569px) {
   /* Tested on:
    * 320 x 568 [ iPhone 5/5C/5S ] (landscape)
