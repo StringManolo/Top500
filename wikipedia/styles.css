@@ -288,6 +288,43 @@ input[type="search"]::-ms-reveal {
   }
 }
 
+@media (min-width: 320px) and (max-width: 410px) {
+  /* Tested on:
+   * 320 x 568 [ Apple iPod Touch ]
+   * 375 x 667 [ Apple iPhone 8 ]
+   * 360 x 740 [ Samsung Galaxy S8+ ]
+   */
+  .hide-arrow {
+    right: 19.4%;
+    width: 2.8%;
+  }
+
+  .wikipedia-language {
+    width: 20.2%;
+  }
+
+  .wikipedia-search-icon {
+    width: 75%; 
+  }
+}
+
+@media (min-width: 360px) and (max-width: 374px) {
+  /* Tested on:
+   * 360 x 740 [ Samsung Galaxy S8+ ]
+   */
+  .wikipedia-language {
+    width: 17.5%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 410px) {
+  /* Tested on:
+   * 375 x 667 [ Apple iPhone 8 ]
+  */
+  .wikipedia-language {
+    width: 17%;
+  }
+}
 
 
 @media (min-width: 720px) and (max-width: 768px) {

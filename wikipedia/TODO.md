@@ -4,5 +4,7 @@
 
 - Keep writting and testing responsive css
 
+- Test all resolutions
+
 - Also implement PC responsive design? Seems a fun design to implement  
 
