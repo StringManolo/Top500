@@ -486,7 +486,7 @@ input[type="search"]::-ms-reveal {
 }
 
 
-@media (min-width: 895px) and (max-width: 897px) {
+@media (min-width: 895px) and (max-width: 910px) {
   /* Tested on:
    * 414 x 896 [ Apple iPhone XS Max ] (landscape)
   */
