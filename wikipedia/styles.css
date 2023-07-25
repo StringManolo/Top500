@@ -340,7 +340,7 @@ input[type="search"]::-ms-reveal {
   }
 }
 
-@media (min-width: 400px) and (max-width: 430px) {
+@media (min-width: 400px) and (max-width: 420px) {
   /* Tested on:
    * 414 x 736 [ iPhone 6+/6S+/7+/8+ ]
   */
@@ -354,8 +354,22 @@ input[type="search"]::-ms-reveal {
   }
 }
 
+@media (min-width: 420px) and (max-width: 450px) {
+  /* Tested on:
+   * 428 x 926 [ iPhone 12 Pro Max/13 Pro Max ] (landscape)
+  */
+  .hide-arrow {
+    right: 21.4%;
+    width: 2.6%;
+  }
 
-@media (min-width: 430px) and (max-width: 481px) {
+  .wikipedia-language {
+    width: 15%;
+  }
+}
+
+
+@media (min-width: 450px) and (max-width: 481px) {
   /* Tested on:
    * 320 x 480 [ iPhone 2G/3G/3GS ] (landscape)
   */
@@ -481,6 +495,18 @@ input[type="search"]::-ms-reveal {
     width: 5%;
   }
 }
+
+@media (min-width: 910px) and (max-width: 960px) {
+  /* Tested on:
+   * 428 x 926 [ iPhone 12 Pro Max/13 Pro Max ] (landscape)
+  */
+  .hide-arrow {
+    right: 19.6%;
+    width: 5%;
+  }
+}
+
+
 
 /* Dispositivo target: Pantallas grandes (escritorio) */
 /*@media (min-width: 992px) and (max-width: 1199px) {
