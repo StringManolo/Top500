@@ -326,7 +326,22 @@ input[type="search"]::-ms-reveal {
   }
 }
 
-@media (min-width: 410px) and (max-width: 481px) {
+@media (min-width: 400px) and (max-width: 430px) {
+  /* Tested on:
+   * 414 x 736 [ iPhone 6+/6S+/7+/8+ ]
+  */
+  .hide-arrow {
+    right: 21.4%;
+    width: 2.6%;
+  }
+
+  .wikipedia-language {
+    width: 16%;
+  }
+}
+
+
+@media (min-width: 430px) and (max-width: 481px) {
   /* Tested on:
    * 320 x 480 [ iPhone 2G/3G/3GS ] (landscape)
   */
@@ -411,15 +426,23 @@ input[type="search"]::-ms-reveal {
   }
 }
 
-
-
-@media (min-width: 768px) and (max-width: 769px) {
+@media (min-width: 768px) and (max-width: 800px) {
   /* Tested on:
    * 768 x 1024 [ Apple Ipad Pro 9.7 ]
   */
 
   .hide-arrow {
     right: 21%;
+    width: 6%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 895px) {
+  /* Tested on:
+   * 375 x 812 [ iPhone X/Xs/11 Pro ] (landscape)
+  */
+  .hide-arrow {
+    right: 20.6%;
     width: 6%;
   }
 }
