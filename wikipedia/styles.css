@@ -326,7 +326,21 @@ input[type="search"]::-ms-reveal {
   }
 }
 
-@media (min-width: 411px) and (max-width: 567px) {
+@media (min-width: 410px) and (max-width: 481px) {
+  /* Tested on:
+   * 320 x 480 [ iPhone 2G/3G/3GS ] (landscape)
+  */
+  .hide-arrow {
+    right: 21%;
+    width: 2.6%;
+  }
+
+  .wikipedia-language {
+    width: 13.5%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 567px) {
   /* Tested on:
    * 320 x 533 [ Samsung Galaxy S2 ] (landscape)
   */
